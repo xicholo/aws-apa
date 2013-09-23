@@ -107,10 +107,10 @@ import javax.xml.bind.annotation.XmlValue;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -142,11 +142,11 @@ import javax.xml.bind.annotation.XmlValue;
  *           &lt;/complexType>
  *         &lt;/element>
  *         &lt;element name="LegalDisclaimer" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="ListPrice" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Price" minOccurs="0"/>
+ *         &lt;element name="ListPrice" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}Price" minOccurs="0"/>
  *         &lt;element name="MagazineType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Manufacturer" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="ManufacturerMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *         &lt;element name="ManufacturerMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="ManufacturerMaximumAge" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="ManufacturerMinimumAge" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="ManufacturerPartsWarrantyDescription" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="MediaType" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Model" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
@@ -163,10 +163,10 @@ import javax.xml.bind.annotation.XmlValue;
  *             &lt;complexContent>
  *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *                 &lt;sequence>
- *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
- *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+ *                   &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
  *                 &lt;/sequence>
  *               &lt;/restriction>
  *             &lt;/complexContent>
@@ -183,15 +183,15 @@ import javax.xml.bind.annotation.XmlValue;
  *         &lt;element name="Publisher" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="RegionCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="ReleaseDate" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="RunningTime" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+ *         &lt;element name="RunningTime" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
  *         &lt;element name="SeikodoProductCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Size" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="SKU" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="Studio" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="SubscriptionLength" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
+ *         &lt;element name="SubscriptionLength" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}NonNegativeIntegerWithUnits" minOccurs="0"/>
  *         &lt;element name="Title" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="TrackSequence" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="TradeInValue" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Price" minOccurs="0"/>
+ *         &lt;element name="TradeInValue" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}Price" minOccurs="0"/>
  *         &lt;element name="UPC" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *         &lt;element name="UPCList" minOccurs="0">
  *           &lt;complexType>
@@ -205,7 +205,7 @@ import javax.xml.bind.annotation.XmlValue;
  *           &lt;/complexType>
  *         &lt;/element>
  *         &lt;element name="Warranty" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="WEEETaxValue" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Price" minOccurs="0"/>
+ *         &lt;element name="WEEETaxValue" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}Price" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -2367,10 +2367,10 @@ public class ItemAttributes {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>
@@ -2664,10 +2664,10 @@ public class ItemAttributes {
      *   &lt;complexContent>
      *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
      *       &lt;sequence>
-     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
-     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Height" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Length" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Weight" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
+     *         &lt;element name="Width" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}DecimalWithUnits" minOccurs="0"/>
      *       &lt;/sequence>
      *     &lt;/restriction>
      *   &lt;/complexContent>

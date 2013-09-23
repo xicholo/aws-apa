@@ -36,10 +36,10 @@ import javax.xml.namespace.QName;
 public class ObjectFactory {
 
     private final static QName _AudienceRating_QNAME = new QName(
-            "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+            "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
             "AudienceRating");
     private final static QName _Condition_QNAME = new QName(
-            "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+            "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
             "Condition");
 
     /**
@@ -1073,7 +1073,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservices.amazon.com/AWSECommerceService/2011-08-01", name = "AudienceRating")
+    @XmlElementDecl(namespace = "http://webservices.amazon.com/AWSECommerceService/2013-08-01", name = "AudienceRating")
     public JAXBElement<String> createAudienceRating(String value) {
         return new JAXBElement<String>(_AudienceRating_QNAME, String.class,
                 null, value);
@@ -1083,7 +1083,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link String }{@code >}
      * 
      */
-    @XmlElementDecl(namespace = "http://webservices.amazon.com/AWSECommerceService/2011-08-01", name = "Condition")
+    @XmlElementDecl(namespace = "http://webservices.amazon.com/AWSECommerceService/2013-08-01", name = "Condition")
     public JAXBElement<String> createCondition(String value) {
         return new JAXBElement<String>(_Condition_QNAME, String.class, null,
                 value);

@@ -30,7 +30,7 @@ import javax.xml.ws.WebServiceFeature;
  * source version: 2.1
  * 
  */
-@WebServiceClient(name = "AWSECommerceService", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2011-08-01", wsdlLocation = "http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl")
+@WebServiceClient(name = "AWSECommerceService", targetNamespace = "http://webservices.amazon.com/AWSECommerceService/2013-08-01", wsdlLocation = "http://ecs.amazonaws.com/AWSECommerceService/AWSECommerceService.wsdl")
 public class AWSECommerceService extends Service {
 
     private final static URL AWSECOMMERCESERVICE_WSDL_LOCATION;
@@ -58,7 +58,7 @@ public class AWSECommerceService extends Service {
 
     public AWSECommerceService() {
         super(AWSECOMMERCESERVICE_WSDL_LOCATION, new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceService"));
     }
 
@@ -69,7 +69,7 @@ public class AWSECommerceService extends Service {
     @WebEndpoint(name = "AWSECommerceServicePort")
     public AWSECommerceServicePortType getAWSECommerceServicePort() {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePort"), AWSECommerceServicePortType.class);
     }
 
@@ -86,7 +86,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePort(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePort"), AWSECommerceServicePortType.class,
                 features);
     }
@@ -100,7 +100,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortCA"),
                         AWSECommerceServicePortType.class);
     }
@@ -118,7 +118,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortCA(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortCA"),
                 AWSECommerceServicePortType.class, features);
     }
@@ -132,7 +132,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortDE"),
                         AWSECommerceServicePortType.class);
     }
@@ -150,7 +150,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortDE(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortDE"),
                 AWSECommerceServicePortType.class, features);
     }
@@ -164,7 +164,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortFR"),
                         AWSECommerceServicePortType.class);
     }
@@ -182,7 +182,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortFR(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortFR"),
                 AWSECommerceServicePortType.class, features);
     }
@@ -196,7 +196,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortJP"),
                         AWSECommerceServicePortType.class);
     }
@@ -214,7 +214,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortJP(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortJP"),
                 AWSECommerceServicePortType.class, features);
     }
@@ -228,7 +228,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortUK"),
                         AWSECommerceServicePortType.class);
     }
@@ -246,7 +246,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortUK(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortUK"),
                 AWSECommerceServicePortType.class, features);
     }
@@ -260,7 +260,7 @@ public class AWSECommerceService extends Service {
         return super
                 .getPort(
                         new QName(
-                                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                                 "AWSECommerceServicePortUS"),
                         AWSECommerceServicePortType.class);
     }
@@ -278,7 +278,7 @@ public class AWSECommerceService extends Service {
     public AWSECommerceServicePortType getAWSECommerceServicePortUS(
             WebServiceFeature... features) {
         return super.getPort(new QName(
-                "http://webservices.amazon.com/AWSECommerceService/2011-08-01",
+                "http://webservices.amazon.com/AWSECommerceService/2013-08-01",
                 "AWSECommerceServicePortUS"),
                 AWSECommerceServicePortType.class, features);
     }

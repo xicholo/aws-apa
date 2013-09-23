@@ -36,16 +36,16 @@ import javax.xml.bind.annotation.XmlType;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
  *         &lt;element name="IsValid" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *         &lt;element name="BrowseNodeLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}BrowseNodeLookupRequest" minOccurs="0"/>
- *         &lt;element name="ItemSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ItemSearchRequest" minOccurs="0"/>
- *         &lt;element name="ItemLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}ItemLookupRequest" minOccurs="0"/>
- *         &lt;element name="SimilarityLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}SimilarityLookupRequest" minOccurs="0"/>
- *         &lt;element name="CartGetRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}CartGetRequest" minOccurs="0"/>
- *         &lt;element name="CartAddRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}CartAddRequest" minOccurs="0"/>
- *         &lt;element name="CartCreateRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}CartCreateRequest" minOccurs="0"/>
- *         &lt;element name="CartModifyRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}CartModifyRequest" minOccurs="0"/>
- *         &lt;element name="CartClearRequest" type="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}CartClearRequest" minOccurs="0"/>
- *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2011-08-01}Errors" minOccurs="0"/>
+ *         &lt;element name="BrowseNodeLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}BrowseNodeLookupRequest" minOccurs="0"/>
+ *         &lt;element name="ItemSearchRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}ItemSearchRequest" minOccurs="0"/>
+ *         &lt;element name="ItemLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}ItemLookupRequest" minOccurs="0"/>
+ *         &lt;element name="SimilarityLookupRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}SimilarityLookupRequest" minOccurs="0"/>
+ *         &lt;element name="CartGetRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}CartGetRequest" minOccurs="0"/>
+ *         &lt;element name="CartAddRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}CartAddRequest" minOccurs="0"/>
+ *         &lt;element name="CartCreateRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}CartCreateRequest" minOccurs="0"/>
+ *         &lt;element name="CartModifyRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}CartModifyRequest" minOccurs="0"/>
+ *         &lt;element name="CartClearRequest" type="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}CartClearRequest" minOccurs="0"/>
+ *         &lt;element ref="{http://webservices.amazon.com/AWSECommerceService/2013-08-01}Errors" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
